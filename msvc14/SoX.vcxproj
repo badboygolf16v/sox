@@ -128,6 +128,10 @@
     <ClInclude Include="..\src\win32-glob.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\flac\src\share\win_utf8_io\win_utf8_io_static.vcxproj">
+      <Project>{4cefbe02-c215-11db-8314-0800200c9a66}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="LibFlac.vcxproj">
       <Project>{38203d05-af71-4ff2-a183-a7d9cb8d2ae0}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

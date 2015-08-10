@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibSpeex", "LibSpeex.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibSpeexDsp", "LibSpeexDsp.vcxproj", "{BF1A8B37-E85A-4467-B9B6-D207DF189F4C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win_utf8_io_static", "..\..\flac\src\share\win_utf8_io\win_utf8_io_static.vcxproj", "{4CEFBE02-C215-11DB-8314-0800200C9A66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -117,6 +119,10 @@ Global
 		{BF1A8B37-E85A-4467-B9B6-D207DF189F4C}.Debug|Win32.Build.0 = Debug|Win32
 		{BF1A8B37-E85A-4467-B9B6-D207DF189F4C}.Release|Win32.ActiveCfg = Release|Win32
 		{BF1A8B37-E85A-4467-B9B6-D207DF189F4C}.Release|Win32.Build.0 = Release|Win32
+		{4CEFBE02-C215-11DB-8314-0800200C9A66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CEFBE02-C215-11DB-8314-0800200C9A66}.Debug|Win32.Build.0 = Debug|Win32
+		{4CEFBE02-C215-11DB-8314-0800200C9A66}.Release|Win32.ActiveCfg = Release|Win32
+		{4CEFBE02-C215-11DB-8314-0800200C9A66}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
