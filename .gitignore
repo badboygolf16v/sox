@@ -30,3 +30,4 @@ CMakeFiles
 cmake_install.cmake
 *.a
 tags
+!/msvc14/README.txt
