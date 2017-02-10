@@ -228,7 +228,6 @@ static int dsf_writeheader(sox_format_t *ft)
 	    lsx_writedw(ft, dsf->chan_num) ||
 	    lsx_writedw(ft, dsf->sfreq) ||
 	    lsx_writedw(ft, dsf->bps) ||
-	    // lsx_writeqw(ft, dsf->scount) ||
 	    lsx_writeqw(ft, dsf->scount ? dsf->scount : UINT64_MAX) ||
 	    lsx_writedw(ft, dsf->block_size) ||
 	    lsx_writedw(ft, 0) || /* reserved */
