@@ -15,19 +15,21 @@ How to build:
    
 	The following versions were tested and successfully built:
    
-   -- flac-1.3.1.tar.gz (http://downloads.xiph.org/releases/flac/flac-1.3.1.tar.xz) extracted into directory flac 
+   -- flac-1.3.2.tar.gz (http://downloads.xiph.org/releases/flac/flac-1.3.2.tar.xz) extracted into directory flac 
    -- lame-399.5.tar.gz (https://sourceforge.net/projects/lame/files/lame/3.99/lame-3.99.5.tar.gz/download) extracted into directory lame
    -- libid3tag-0.15.1b.tar.gz (https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/libid3tag-0.15.1b.tar.gz/download) extracted into directory libid3tag
    -- libmad-0.15.1b.tar.gz (https://sourceforge.net/projects/mad/files/libmad/0.15.1b/libmad-0.15.1b.tar.gz/download) extracted into directory libmad
    -- libogg-1.3.2.tar.gz (http://downloads.xiph.org/releases/ogg/libogg-1.3.2.tar.xz) extracted into directory libogg
    -- libpng-1.6.28.tar.gz (http://prdownloads.sourceforge.net/libpng/libpng-1.6.28.tar.gz?download) extracted into directory libpng
    -- libvorbis-1.3.5.tar.gz (http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.5.tar.xz) extracted into directory libvorbis
-   -- speex-1.2rc2.tar.gz (http://downloads.us.xiph.org/releases/speex/speex-1.2rc2.tar.gz)extracted into directory speex
+   -- speex-1.2rc1.tar.gz (http://downloads.xiph.org/releases/speex/speex-1.2rc1.tar.gz)extracted into directory speex
+   -- speexDsp-1.2rc3.tar.gz (https://github.com/xiph/speexdsp/archive/SpeexDSP-1.2rc3.tar.gz)extracted into directory speex
+
    -- wavpack-5.1.0.tar.bz2 (https://github.com/dbry/WavPack/releases/tag/5.1.0) extracted into directory wavpack
    -- zlib-1.2.11.tar.gz (http://www.zlib.net/zlib-1.2.11.tar.gz) extracted into directory zlib
 
    -- libsndfile-1.0.26.tar.gz ( http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.26.tar.gz) extracted into directory libsndfile 
-   
+
    
 3. Open the sox\msvc14\SoX.sln solution.
 
